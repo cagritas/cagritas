@@ -35,6 +35,8 @@
 ### 💻 Open Source Highlights
 - 🛡️ **[CasperAC](https://github.com/cagritas/casperac)** `[Public]`
   - Advanced Dual-Layer (WARP + Tor) Network Anonymization Tool & Native Desktop GUI for macOS/Linux. *Available on PyPI.*
+- 📂 **[FilesInfo](https://github.com/cagritas/filesinfo)** `[Public]`
+  - A fast Python library and CLI tool that delivers fact-sheet style metadata for thousands of file extensions. Perfect for security analysis and automation workflows.
 
 ---
 
