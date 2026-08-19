@@ -14,13 +14,26 @@
 
 <br>
 
----
+<div align="center">
+  <h3>👨‍💻 Bridging Code & Infrastructure</h3>
+  <p>
+    I am a <b>Software & Platform Engineer</b> with a unique background as a former Naval Officer.<br/>
+    I specialize in the <i>"You build it, you run it"</i> philosophy, seamlessly connecting the gap between<br/>
+    writing high-performance application code and orchestrating the cloud-native environments it runs on.<br/>
+    Currently focused on building distributed backend systems and mobile-first infrastructure tooling.
+  </p>
+</div>
 
 ### ⚡ About Me
 
 I am a Software Engineer passionate about owning the complete software lifecycle. My expertise lies in bridging the gap between development and infrastructure—crafting intuitive user experiences, architecting high-performance backend systems, and orchestrating resilient cloud environments. Instead of limiting myself to a single layer, I focus on building scalable, end-to-end solutions where efficient code meets automated, highly available deployments.
 
----
+<div align="center">
+  <h3>📈 GitHub Analytics</h3>
+  <!-- Live Stats (Dark Theme) -->
+  <img src="https://github-readme-stats.vercel.app/api?username=cagritas&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cagritas&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+</div>
 
 ### 🛠️ Tech Stack
 
