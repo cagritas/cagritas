@@ -1,47 +1,96 @@
-<h1 align="center">Hi there, I'm Çağrı 👋</h1>
-<h3 align="center">Software Engineer | Mobile & Infrastructure Developer</h3>
+<a href="https://cagri.run">
+  <img src="./intro.svg" alt="intro" width="100%" />
+</a>
 
-<p align="center">
-  <a href="https://cagri.run">
-    <img src="https://img.shields.io/badge/Portfolio-cagri.run-000000?style=for-the-badge&logo=vercel" alt="Website" />
-  </a>
-</p>
+<br>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cagritas&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+<div align="center">
 
----
+<a href="https://linkedin.com/in/cagritas"><img src="./linkedin.svg" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://cagri.run"><img src="./portfolio.svg" alt="Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://pypi.org/user/cagritas"><img src="./pypi.svg" alt="PyPI" /></a>
 
-### 🚀 Private Showcase (Selected Works)
-*While I love open-source, most of my enterprise-grade and complex applications are kept in private repositories. Here is a glimpse of what I've been building behind the scenes:*
+</div>
 
-#### 📱 Mobile Engineering
-- 🧼 **[SwipeClean](https://github.com/cagritas/SwipeClean)** `[Private Repository]`
-  - A modern **React Native** application for efficient photo library management. Features an intelligent duplicate detection algorithm, 60fps gesture-based interactions (Reanimated), and cross-platform support (iOS/Android).
-- 🍼 **[BabyLive](https://github.com/cagritas/BabyLive)** `[Private Repository]`
-  - Serverless **React Native WebRTC** P2P camera streaming MVP. Implements ultra-low latency video streaming directly between devices using QR/JSON signaling.
-- 🌌 **[Orastra](https://github.com/cagritas/Orastra)** `[Private Repository]`
-  - An AR-powered offline celestial navigation mobile app for sailors built with **Flutter**. Features a custom offline ephemeris calculation engine and Augmented Reality sky view for precise ocean navigation without internet.
-
-#### ☁️ DevOps & Infrastructure
-- ☸️ **[KubeNode](https://github.com/cagritas/KubeNode)** `[Private Repository]`
-  - An iOS-first **Kubernetes** mobile management application (Flutter). Allows DevOps engineers to monitor, scale, and manage K8s clusters directly from their phones.
-- 🖥️ **[ProxNode](https://github.com/cagritas/ProxNode)** `[Private Repository]`
-  - A dedicated mobile infrastructure management and monitoring tool for **Proxmox VE** environments.
+<br>
 
 ---
 
-### 💻 Open Source Highlights
-- 🛡️ **[CasperAC](https://github.com/cagritas/casperac)** `[Public]`
-  - Advanced Dual-Layer (WARP + Tor) Network Anonymization Tool & Native Desktop GUI for macOS/Linux. *Available on PyPI.*
-- 📂 **[FilesInfo](https://github.com/cagritas/filesinfo)** `[Public]`
-  - A fast Python library and CLI tool that delivers fact-sheet style metadata for thousands of file extensions. Perfect for security analysis and automation workflows.
+### ⚡ About Me
+
+I am a Software Engineer passionate about owning the complete software lifecycle. My expertise lies in bridging the gap between development and infrastructure—crafting intuitive user experiences, architecting high-performance backend systems, and orchestrating resilient cloud environments. Instead of limiting myself to a single layer, I focus on building scalable, end-to-end solutions where efficient code meets automated, highly available deployments.
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cagritas&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cagritas&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
+### 🛠️ Tech Stack
+
+<div align="center">
+
+<br>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<br><br>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
+<img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
+<img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP" />
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
+<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+<br><br>
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+<img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm" />
+<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js" />
+<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+<br><br>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
+<img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+<img src="https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+<br><br>
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox" />
+<img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white" alt="VMware" />
+<img src="https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white" alt="OpenShift" />
+<img src="https://img.shields.io/badge/QEMU-FF6600?style=for-the-badge&logo=qemu&logoColor=white" alt="QEMU" />
+<img src="https://img.shields.io/badge/K3s-FFC61C?style=for-the-badge&logo=k3s&logoColor=black" alt="K3s" />
+<img src="https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white" alt="Tailscale" />
+<img src="https://img.shields.io/badge/ZeroTier-FBBA00?style=for-the-badge&logo=zerotier&logoColor=black" alt="ZeroTier" />
+<img src="https://img.shields.io/badge/MSSQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="MSSQL" />
+<img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" alt="Celery" />
+<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger" />
+<br><br>
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+
+<br>
+
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./quote.svg" alt="We need nothing but one thing: to be hardworking." />
+</div>
