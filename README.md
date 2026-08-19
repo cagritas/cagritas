@@ -1,50 +1,26 @@
 <div align="center">
-<a href="https://cagri.run">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./intro-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./intro-light.svg">
-    <img src="./intro-light.svg" alt="intro" width="100%" />
-  </picture>
-</a>
-</div>
 
-<br>
+<a href="https://cagri.run"><img src="./intro-light.svg?v=2#gh-light-mode-only" alt="intro" width="100%" /></a>
+<a href="https://cagri.run"><img src="./intro-dark.svg?v=2#gh-dark-mode-only" alt="intro" width="100%" /></a>
 
-<div align="center">
+<br><br>
 
-<a href="https://linkedin.com/in/cagritas">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./linkedin-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./linkedin-light.svg">
-    <img src="./linkedin-light.svg" alt="LinkedIn" />
-  </picture>
-</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://cagri.run">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./portfolio-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./portfolio-light.svg">
-    <img src="./portfolio-light.svg" alt="Portfolio" />
-  </picture>
-</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://pypi.org/user/cagritas">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./pypi-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./pypi-light.svg">
-    <img src="./pypi-light.svg" alt="PyPI" />
-  </picture>
-</a>
+<a href="https://linkedin.com/in/cagritas"><img src="./linkedin-light.svg?v=2#gh-light-mode-only" alt="LinkedIn" /></a>
+<a href="https://linkedin.com/in/cagritas"><img src="./linkedin-dark.svg?v=2#gh-dark-mode-only" alt="LinkedIn" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://cagri.run"><img src="./portfolio-light.svg?v=2#gh-light-mode-only" alt="Portfolio" /></a>
+<a href="https://cagri.run"><img src="./portfolio-dark.svg?v=2#gh-dark-mode-only" alt="Portfolio" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://pypi.org/user/cagritas"><img src="./pypi-light.svg?v=2#gh-light-mode-only" alt="PyPI" /></a>
+<a href="https://pypi.org/user/cagritas"><img src="./pypi-dark.svg?v=2#gh-dark-mode-only" alt="PyPI" /></a>
 
 </div>
 
 <br>
-
----
 
 ### ⚡ About Me
 
 I am a Software Engineer passionate about owning the complete software lifecycle. My expertise lies in bridging the gap between development and infrastructure—crafting intuitive user experiences, architecting high-performance backend systems, and orchestrating resilient cloud environments. Instead of limiting myself to a single layer, I focus on building scalable, end-to-end solutions where efficient code meets automated, highly available deployments.
-
----
 
 ### 🛠️ Tech Stack
 
@@ -116,9 +92,6 @@ I am a Software Engineer passionate about owning the complete software lifecycle
 <br>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./quote-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./quote-light.svg">
-    <img src="./quote-light.svg" alt="We need nothing but one thing: to be hardworking." />
-  </picture>
+  <img src="./quote-light.svg?v=2#gh-light-mode-only" alt="We need nothing but one thing: to be hardworking." />
+  <img src="./quote-dark.svg?v=2#gh-dark-mode-only" alt="We need nothing but one thing: to be hardworking." />
 </div>
