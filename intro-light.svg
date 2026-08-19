@@ -3,12 +3,6 @@
     <style>
       @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
       .cur  { animation: blink 0.7s step-end infinite; }
-      
-        .nl   { stroke: rgba(88,166,255,0.25); }
-        .pt   { fill: rgba(100,180,255,0.85); }
-        .txt  { fill: #e6edf3; }
-        .cur  { fill: #e6edf3; animation: blink 0.7s step-end infinite; }
-      }
     </style>
   </defs>
 
