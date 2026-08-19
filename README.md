@@ -1,18 +1,35 @@
 <div align="center">
-
-<a href="https://cagri.run"><img src="./intro-light.svg?v=2#gh-light-mode-only" alt="intro" width="100%" /></a>
-<a href="https://cagri.run"><img src="./intro-dark.svg?v=2#gh-dark-mode-only" alt="intro" width="100%" /></a>
+<a href="https://cagri.run">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./intro-dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="./intro-light.svg?v=3">
+    <img src="./intro-light.svg?v=3" alt="intro" width="100%" />
+  </picture>
+</a>
 
 <br><br>
 
-<a href="https://linkedin.com/in/cagritas"><img src="./linkedin-light.svg?v=2#gh-light-mode-only" alt="LinkedIn" /></a>
-<a href="https://linkedin.com/in/cagritas"><img src="./linkedin-dark.svg?v=2#gh-dark-mode-only" alt="LinkedIn" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://cagri.run"><img src="./portfolio-light.svg?v=2#gh-light-mode-only" alt="Portfolio" /></a>
-<a href="https://cagri.run"><img src="./portfolio-dark.svg?v=2#gh-dark-mode-only" alt="Portfolio" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://pypi.org/user/cagritas"><img src="./pypi-light.svg?v=2#gh-light-mode-only" alt="PyPI" /></a>
-<a href="https://pypi.org/user/cagritas"><img src="./pypi-dark.svg?v=2#gh-dark-mode-only" alt="PyPI" /></a>
+<a href="https://linkedin.com/in/cagritas">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./linkedin-dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="./linkedin-light.svg?v=3">
+    <img src="./linkedin-light.svg?v=3" alt="LinkedIn" height="36" />
+  </picture>
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://cagri.run">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./portfolio-dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="./portfolio-light.svg?v=3">
+    <img src="./portfolio-light.svg?v=3" alt="Portfolio" height="36" />
+  </picture>
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://pypi.org/user/cagritas">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./pypi-dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="./pypi-light.svg?v=3">
+    <img src="./pypi-light.svg?v=3" alt="PyPI" height="36" />
+  </picture>
+</a>
 
 </div>
 
@@ -92,6 +109,9 @@ I am a Software Engineer passionate about owning the complete software lifecycle
 <br>
 
 <div align="center">
-  <img src="./quote-light.svg?v=2#gh-light-mode-only" alt="We need nothing but one thing: to be hardworking." />
-  <img src="./quote-dark.svg?v=2#gh-dark-mode-only" alt="We need nothing but one thing: to be hardworking." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./quote-dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="./quote-light.svg?v=3">
+    <img src="./quote-light.svg?v=3" alt="We need nothing but one thing: to be hardworking." />
+  </picture>
 </div>
