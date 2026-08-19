@@ -1,14 +1,38 @@
+<div align="center">
 <a href="https://cagri.run">
-  <img src="./intro.svg" alt="intro" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./intro-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./intro-light.svg">
+    <img src="./intro-light.svg" alt="intro" width="100%" />
+  </picture>
 </a>
+</div>
 
 <br>
 
 <div align="center">
 
-<a href="https://linkedin.com/in/cagritas"><img src="./linkedin.svg" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://cagri.run"><img src="./portfolio.svg" alt="Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://pypi.org/user/cagritas"><img src="./pypi.svg" alt="PyPI" /></a>
+<a href="https://linkedin.com/in/cagritas">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./linkedin-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./linkedin-light.svg">
+    <img src="./linkedin-light.svg" alt="LinkedIn" />
+  </picture>
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://cagri.run">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./portfolio-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./portfolio-light.svg">
+    <img src="./portfolio-light.svg" alt="Portfolio" />
+  </picture>
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://pypi.org/user/cagritas">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./pypi-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./pypi-light.svg">
+    <img src="./pypi-light.svg" alt="PyPI" />
+  </picture>
+</a>
 
 </div>
 
@@ -92,5 +116,9 @@ I am a Software Engineer passionate about owning the complete software lifecycle
 <br>
 
 <div align="center">
-  <img src="./quote.svg" alt="We need nothing but one thing: to be hardworking." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./quote-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./quote-light.svg">
+    <img src="./quote-light.svg" alt="We need nothing but one thing: to be hardworking." />
+  </picture>
 </div>

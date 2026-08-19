@@ -3,8 +3,7 @@
     <style>
       @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
       .cur  { animation: blink 0.7s step-end infinite; }
-      @media (prefers-color-scheme: dark) {
-        .bg   { fill: #0d1117; }
+      
         .nl   { stroke: rgba(88,166,255,0.25); }
         .pt   { fill: rgba(100,180,255,0.85); }
         .txt  { fill: #e6edf3; }

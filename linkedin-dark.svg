@@ -1,18 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="110" height="36" viewBox="0 0 110 36">
   <defs>
     <style>
-      .btn { fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1px; rx: 18px; transition: all 0.2s ease; }
-      .icon, .txt { fill: #24292f; transition: fill 0.2s ease; }
+      .btn { fill: #21262d; stroke: #30363d; stroke-width: 1px; rx: 18px; transition: all 0.2s ease; }
+      .icon, .txt { fill: #c9d1d9; transition: fill 0.2s ease; }
       .txt { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; letter-spacing: 0.2px; }
-      
-      .btn-group:hover .btn { fill: #f3f4f6; stroke: #1f2328; }
-      
-      @media (prefers-color-scheme: dark) {
-        .btn { fill: #21262d; stroke: #30363d; }
-        .icon, .txt { fill: #c9d1d9; }
-        .btn-group:hover .btn { fill: #30363d; stroke: #8b949e; }
-        .btn-group:hover .icon, .btn-group:hover .txt { fill: #ffffff; }
-      }
+      .btn-group:hover .btn { fill: #30363d; stroke: #8b949e; }
+      .btn-group:hover .icon, .btn-group:hover .txt { fill: #ffffff; }
     </style>
   </defs>
   <g class="btn-group" cursor="pointer">
