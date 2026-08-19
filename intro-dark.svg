@@ -3,8 +3,7 @@
     <style>
       @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
       .cur  { animation: blink 0.7s step-end infinite; }
-      @media (prefers-color-scheme: dark) {
-        .bg   { /*temp*/ }
+      
         .nl   { stroke: rgba(88,166,255,0.25); }
         .pt   { fill: rgba(100,180,255,0.85); }
         .txt  { fill: #e6edf3; }
@@ -13,946 +12,946 @@
     </style>
   </defs>
 
-  <rect class="bg" width="100%" height="100%" fill="#ffffff" rx="10"/>
+  <rect class="bg" width="100%" height="100%" fill="#0d1117" rx="10"/>
 
   <g id="network">
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="804;812;848;846;804" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="206;201;197;176;206" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="811;803;775;852;811" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="204;240;176;226;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="320;276;357;360;320" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="240;246;222;283;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="318;356;320;349;318" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="224;250;200;239;224" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="83;107;85;102;83" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="71;84;113;66;71" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="89;72;44;91;89" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="90;98;105;89;90" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="339;362;333;348;339" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="98;97;56;59;98" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="351;374;352;388;351" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="115;130;104;88;115" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="581;616;613;601;581" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="154;141;194;157;154" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="593;548;559;592;593" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="171;134;204;155;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="884;926;856;908;884" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="121;111;153;147;121" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="873;866;869;842;873" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="146;163;173;149;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="89;72;44;91;89" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="90;98;105;89;90" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="80;54;67;125;80" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="116;139;128;148;116" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="250;247;265;206;250" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="123;132;105;155;123" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="229;228;265;249;229" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="142;146;158;157;142" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="351;374;352;388;351" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="115;130;104;88;115" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="350;364;310;324;350" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="144;176;115;143;144" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="569;591;601;600;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="124;159;105;150;124" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="581;616;613;601;581" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="154;141;194;157;154" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="487;448;459;498;487" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="131;99;127;155;131" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="469;460;450;446;469" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="158;203;129;147;158" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="319;344;283;358;319" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="130;150;127;99;130" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="350;364;310;324;350" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="144;176;115;143;144" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="832;822;834;864;832" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="32;17;26;12;32" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="806;816;795;836;806" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="54;91;76;80;54" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="811;803;775;852;811" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="204;240;176;226;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="846;878;835;820;846" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="204;168;248;221;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="319;344;283;358;319" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="130;150;127;99;130" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="351;374;352;388;351" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="115;130;104;88;115" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="803;773;771;801;803" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="10;14;-32;-4;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="832;822;834;864;832" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="32;17;26;12;32" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="339;362;333;348;339" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="98;97;56;59;98" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="319;344;283;358;319" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="130;150;127;99;130" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="832;822;834;864;832" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="32;17;26;12;32" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="866;853;876;843;866" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="50;76;84;60;50" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="477;450;475;462;477" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="49;55;33;7;49" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="494;504;455;512;494" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="14;45;51;12;14" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="302;261;312;316;302" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="10;23;17;-23;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="323;336;295;311;323" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="43;64;21;32;43" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="168;130;145;151;168" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="240;263;231;231;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="185;146;166;142;185" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="204;229;231;162;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="246;238;289;225;246" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="62;62;29;101;62" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="286;296;301;318;286" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="60;64;90;74;60" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="643;656;680;611;643" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="222;205;230;233;222" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="682;708;640;681;682" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="232;205;264;190;232" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="323;336;295;311;323" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="43;64;21;32;43" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="286;296;301;318;286" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="60;64;90;74;60" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="469;460;450;446;469" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="158;203;129;147;158" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="506;463;496;507;506" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="175;132;180;189;175" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="804;812;848;846;804" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="206;201;197;176;206" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="846;878;835;820;846" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="204;168;248;221;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="531;555;557;537;531" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="103;97;98;92;103" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="569;591;601;600;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="124;159;105;150;124" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="803;773;771;801;803" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="10;14;-32;-4;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="806;816;795;836;806" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="54;91;76;80;54" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="319;344;283;358;319" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="130;150;127;99;130" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="297;331;294;333;297" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="169;139;148;201;169" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="83;107;85;102;83" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="71;84;113;66;71" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="80;54;67;125;80" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="116;139;128;148;116" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="339;362;333;348;339" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="98;97;56;59;98" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="350;364;310;324;350" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="144;176;115;143;144" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="629;587;608;654;629" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="28s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="27;-6;69;46;27" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="28s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="673;698;656;713;673" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="46;8;54;71;46" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="487;448;459;498;487" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="131;99;127;155;131" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="506;463;496;507;506" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="175;132;180;189;175" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="69;79;28;64;69" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="18;-25;40;-18;18" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="117;162;141;149;117" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="28;21;36;21;28" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="531;555;557;537;531" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="103;97;98;92;103" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="487;448;459;498;487" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="131;99;127;155;131" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="742;762;699;756;742" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="45;84;79;53;45" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="765;723;810;770;765" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="92;94;135;58;92" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="302;261;312;316;302" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="10;23;17;-23;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="286;296;301;318;286" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="60;64;90;74;60" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="569;591;601;600;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="124;159;105;150;124" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="593;548;559;592;593" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="171;134;204;155;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="726;710;682;748;726" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="128;99;83;144;128" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="765;723;810;770;765" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="92;94;135;58;92" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="38;-4;36;44;38" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="21s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="195;210;182;180;195" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="21s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="86;48;114;72;86" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="218;216;213;263;218" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="69;79;28;64;69" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="18;-25;40;-18;18" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="83;107;85;102;83" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="71;84;113;66;71" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="117;162;141;149;117" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="28;21;36;21;28" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="83;107;85;102;83" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="71;84;113;66;71" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="806;816;795;836;806" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="54;91;76;80;54" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="765;723;810;770;765" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="92;94;135;58;92" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="215;183;175;197;215" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="14;39;53;1;14" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="246;238;289;225;246" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="62;62;29;101;62" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="323;336;295;311;323" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="43;64;21;32;43" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="339;362;333;348;339" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="98;97;56;59;98" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="297;331;294;333;297" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="169;139;148;201;169" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="350;364;310;324;350" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="144;176;115;143;144" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="297;331;294;333;297" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="169;139;148;201;169" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="318;356;320;349;318" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="224;250;200;239;224" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="806;816;795;836;806" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="54;91;76;80;54" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="866;853;876;843;866" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="50;76;84;60;50" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="629;587;608;654;629" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="28s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="27;-6;69;46;27" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="28s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="576;590;562;573;576" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="57;102;49;41;57" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="246;238;289;225;246" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="62;62;29;101;62" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="250;247;265;206;250" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="123;132;105;155;123" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="593;548;559;592;593" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="171;134;204;155;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="650;670;659;663;650" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="146;143;187;178;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="127;147;164;85;127" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="171;165;175;146;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="86;48;114;72;86" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="218;216;213;263;218" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="873;866;869;842;873" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="146;163;173;149;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="846;878;835;820;846" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="204;168;248;221;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="531;555;557;537;531" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="103;97;98;92;103" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="576;590;562;573;576" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="57;102;49;41;57" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="10;12;4;16;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="137;94;123;94;137" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="38;-4;36;44;38" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="21s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="195;210;182;180;195" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="21s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="742;762;699;756;742" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="45;84;79;53;45" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="806;816;795;836;806" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="54;91;76;80;54" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="286;296;301;318;286" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="60;64;90;74;60" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="339;362;333;348;339" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="98;97;56;59;98" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="250;247;265;206;250" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="123;132;105;155;123" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="297;331;294;333;297" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="169;139;148;201;169" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="127;147;164;85;127" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="171;165;175;146;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="185;146;166;142;185" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="204;229;231;162;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="576;590;562;573;576" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="57;102;49;41;57" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="569;591;601;600;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="124;159;105;150;124" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="117;162;141;149;117" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="28;21;36;21;28" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="89;72;44;91;89" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="90;98;105;89;90" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="742;762;699;756;742" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="45;84;79;53;45" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="673;698;656;713;673" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="46;8;54;71;46" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="250;247;265;206;250" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="123;132;105;155;123" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="319;344;283;358;319" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="130;150;127;99;130" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="581;616;613;601;581" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="154;141;194;157;154" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="650;670;659;663;650" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="146;143;187;178;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="742;762;699;756;742" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="45;84;79;53;45" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="803;773;771;801;803" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="10;14;-32;-4;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="531;555;557;537;531" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="103;97;98;92;103" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="581;616;613;601;581" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="154;141;194;157;154" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="593;548;559;592;593" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="171;134;204;155;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="643;656;680;611;643" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="222;205;230;233;222" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="477;450;475;462;477" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="49;55;33;7;49" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="407;390;440;431;407" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="64;55;82;44;64" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="80;54;67;125;80" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="116;139;128;148;116" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="127;147;164;85;127" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="171;165;175;146;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="286;296;301;318;286" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="60;64;90;74;60" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="250;247;265;206;250" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="123;132;105;155;123" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="593;548;559;592;593" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="171;134;204;155;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="569;549;589;585;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="240;274;238;218;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="10;12;4;16;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="137;94;123;94;137" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="80;54;67;125;80" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="116;139;128;148;116" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="229;228;265;249;229" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="142;146;158;157;142" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="297;331;294;333;297" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="169;139;148;201;169" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="866;853;876;843;866" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="50;76;84;60;50" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="884;926;856;908;884" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="121;111;153;147;121" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="803;773;771;801;803" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="10;14;-32;-4;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="866;853;876;843;866" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="50;76;84;60;50" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="297;331;294;333;297" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="169;139;148;201;169" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="320;276;357;360;320" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="240;246;222;283;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="69;79;28;64;69" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="18;-25;40;-18;18" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="89;72;44;91;89" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="90;98;105;89;90" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="407;390;440;431;407" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="64;55;82;44;64" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="351;374;352;388;351" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="115;130;104;88;115" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="339;362;333;348;339" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="98;97;56;59;98" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="407;390;440;431;407" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="64;55;82;44;64" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="229;228;265;249;229" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="142;146;158;157;142" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="185;146;166;142;185" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="204;229;231;162;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="569;549;589;585;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="240;274;238;218;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="643;656;680;611;643" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="222;205;230;233;222" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="531;555;557;537;531" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="103;97;98;92;103" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="506;463;496;507;506" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="175;132;180;189;175" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="650;670;659;663;650" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="146;143;187;178;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="643;656;680;611;643" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="222;205;230;233;222" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="477;450;475;462;477" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="49;55;33;7;49" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="531;555;557;537;531" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="103;97;98;92;103" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="351;374;352;388;351" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="115;130;104;88;115" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="297;331;294;333;297" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="169;139;148;201;169" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="302;261;312;316;302" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="10;23;17;-23;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="246;238;289;225;246" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="62;62;29;101;62" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="323;336;295;311;323" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="43;64;21;32;43" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="351;374;352;388;351" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="115;130;104;88;115" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="286;296;301;318;286" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="60;64;90;74;60" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="319;344;283;358;319" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="130;150;127;99;130" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="469;460;450;446;469" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="158;203;129;147;158" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="428;409;447;431;428" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="224;264;197;230;224" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="581;616;613;601;581" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="154;141;194;157;154" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="506;463;496;507;506" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="175;132;180;189;175" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="726;710;682;748;726" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="128;99;83;144;128" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="650;670;659;663;650" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="146;143;187;178;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="323;336;295;311;323" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="43;64;21;32;43" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="246;238;289;225;246" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="62;62;29;101;62" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="127;147;164;85;127" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="171;165;175;146;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="168;130;145;151;168" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="240;263;231;231;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="569;591;601;600;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="124;159;105;150;124" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="506;463;496;507;506" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="175;132;180;189;175" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="246;238;289;225;246" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="62;62;29;101;62" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="229;228;265;249;229" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="142;146;158;157;142" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="487;448;459;498;487" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="131;99;127;155;131" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="569;591;601;600;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="124;159;105;150;124" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="339;362;333;348;339" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="98;97;56;59;98" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="297;331;294;333;297" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="169;139;148;201;169" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="477;450;475;462;477" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="49;55;33;7;49" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="487;448;459;498;487" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="131;99;127;155;131" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="531;555;557;537;531" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="103;97;98;92;103" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="469;460;450;446;469" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="158;203;129;147;158" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="569;591;601;600;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="124;159;105;150;124" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="650;670;659;663;650" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="146;143;187;178;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="742;762;699;756;742" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="45;84;79;53;45" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="726;710;682;748;726" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="128;99;83;144;128" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="215;183;175;197;215" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="14;39;53;1;14" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="286;296;301;318;286" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="60;64;90;74;60" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="873;866;869;842;873" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="146;163;173;149;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="811;803;775;852;811" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="204;240;176;226;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="86;48;114;72;86" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="218;216;213;263;218" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="168;130;145;151;168" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="240;263;231;231;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="286;296;301;318;286" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="60;64;90;74;60" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="351;374;352;388;351" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="115;130;104;88;115" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="350;364;310;324;350" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="144;176;115;143;144" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="318;356;320;349;318" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="224;250;200;239;224" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="323;336;295;311;323" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="43;64;21;32;43" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="407;390;440;431;407" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="64;55;82;44;64" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="581;616;613;601;581" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="154;141;194;157;154" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="569;549;589;585;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="240;274;238;218;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="215;183;175;197;215" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="14;39;53;1;14" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="302;261;312;316;302" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="10;23;17;-23;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="323;336;295;311;323" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="43;64;21;32;43" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="319;344;283;358;319" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="130;150;127;99;130" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="506;463;496;507;506" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="175;132;180;189;175" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="593;548;559;592;593" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="171;134;204;155;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="89;72;44;91;89" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="90;98;105;89;90" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="127;147;164;85;127" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="171;165;175;146;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="80;54;67;125;80" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="116;139;128;148;116" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="38;-4;36;44;38" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="21s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="195;210;182;180;195" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="21s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="832;822;834;864;832" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="32;17;26;12;32" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="765;723;810;770;765" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="92;94;135;58;92" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="803;773;771;801;803" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="10;14;-32;-4;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="765;723;810;770;765" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="92;94;135;58;92" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="506;463;496;507;506" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="175;132;180;189;175" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="569;549;589;585;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="240;274;238;218;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="319;344;283;358;319" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="130;150;127;99;130" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="229;228;265;249;229" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="142;146;158;157;142" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="742;762;699;756;742" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="45;84;79;53;45" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="832;822;834;864;832" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="32;17;26;12;32" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="884;926;856;908;884" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="121;111;153;147;121" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="846;878;835;820;846" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="204;168;248;221;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </line>
-    <line class="nl" stroke="rgba(100,100,120,0.35)" stroke-width="0.9">
+    <line class="nl" stroke="rgba(88,166,255,0.25)" stroke-width="0.9">
       <animate attributeName="x1" values="804;812;848;846;804" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="y1" values="206;201;197;176;206" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="873;866;869;842;873" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="146;163;173;149;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
     </line>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.3">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.3">
       <animate attributeName="cx" values="69;79;28;64;69" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="18;-25;40;-18;18" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.0">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.0">
       <animate attributeName="cx" values="117;162;141;149;117" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="28;21;36;21;28" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.6">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.6">
       <animate attributeName="cx" values="215;183;175;197;215" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="14;39;53;1;14" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.6">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.6">
       <animate attributeName="cx" values="302;261;312;316;302" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="10;23;17;-23;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.1">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.1">
       <animate attributeName="cx" values="323;336;295;311;323" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="43;64;21;32;43" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.6">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.6">
       <animate attributeName="cx" values="477;450;475;462;477" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="49;55;33;7;49" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.5">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.5">
       <animate attributeName="cx" values="494;504;455;512;494" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="14;45;51;12;14" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.0">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.0">
       <animate attributeName="cx" values="629;587;608;654;629" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="28s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="27;-6;69;46;27" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="28s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.6">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.6">
       <animate attributeName="cx" values="742;762;699;756;742" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="45;84;79;53;45" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.2">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.2">
       <animate attributeName="cx" values="803;773;771;801;803" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="10;14;-32;-4;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.1">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.1">
       <animate attributeName="cx" values="832;822;834;864;832" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="32;17;26;12;32" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.8">
       <animate attributeName="cx" values="83;107;85;102;83" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="71;84;113;66;71" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.2">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.2">
       <animate attributeName="cx" values="89;72;44;91;89" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="90;98;105;89;90" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.8">
       <animate attributeName="cx" values="246;238;289;225;246" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="62;62;29;101;62" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.7">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.7">
       <animate attributeName="cx" values="286;296;301;318;286" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="60;64;90;74;60" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.9">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.9">
       <animate attributeName="cx" values="339;362;333;348;339" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="98;97;56;59;98" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.2">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.2">
       <animate attributeName="cx" values="407;390;440;431;407" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="64;55;82;44;64" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.3">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.3">
       <animate attributeName="cx" values="531;555;557;537;531" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="103;97;98;92;103" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="15s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.6">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.6">
       <animate attributeName="cx" values="576;590;562;573;576" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="57;102;49;41;57" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.8">
       <animate attributeName="cx" values="673;698;656;713;673" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="46;8;54;71;46" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.1">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.1">
       <animate attributeName="cx" values="806;816;795;836;806" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="54;91;76;80;54" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.8">
       <animate attributeName="cx" values="866;853;876;843;866" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="50;76;84;60;50" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.0">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.0">
       <animate attributeName="cx" values="10;12;4;16;10" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="137;94;123;94;137" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.6">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.6">
       <animate attributeName="cx" values="80;54;67;125;80" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="116;139;128;148;116" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="3.0">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="3.0">
       <animate attributeName="cx" values="250;247;265;206;250" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="123;132;105;155;123" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.8">
       <animate attributeName="cx" values="319;344;283;358;319" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="130;150;127;99;130" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.2">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.2">
       <animate attributeName="cx" values="351;374;352;388;351" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="115;130;104;88;115" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.7">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.7">
       <animate attributeName="cx" values="487;448;459;498;487" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="131;99;127;155;131" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.7">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.7">
       <animate attributeName="cx" values="569;591;601;600;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="124;159;105;150;124" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.0">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.0">
       <animate attributeName="cx" values="581;616;613;601;581" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="154;141;194;157;154" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.2">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.2">
       <animate attributeName="cx" values="726;710;682;748;726" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="128;99;83;144;128" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.2">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.2">
       <animate attributeName="cx" values="765;723;810;770;765" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="92;94;135;58;92" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.9">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.9">
       <animate attributeName="cx" values="884;926;856;908;884" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="121;111;153;147;121" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="19s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.2">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.2">
       <animate attributeName="cx" values="38;-4;36;44;38" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="21s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="195;210;182;180;195" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="21s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.3">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.3">
       <animate attributeName="cx" values="127;147;164;85;127" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="171;165;175;146;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="26s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.0">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.0">
       <animate attributeName="cx" values="229;228;265;249;229" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="142;146;158;157;142" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.8">
       <animate attributeName="cx" values="297;331;294;333;297" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="169;139;148;201;169" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.7">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.7">
       <animate attributeName="cx" values="350;364;310;324;350" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="144;176;115;143;144" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.9">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.9">
       <animate attributeName="cx" values="469;460;450;446;469" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="158;203;129;147;158" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.1">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.1">
       <animate attributeName="cx" values="506;463;496;507;506" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="175;132;180;189;175" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.6">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.6">
       <animate attributeName="cx" values="593;548;559;592;593" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="171;134;204;155;171" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="18s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.7">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.7">
       <animate attributeName="cx" values="650;670;659;663;650" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="146;143;187;178;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.4">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.4">
       <animate attributeName="cx" values="804;812;848;846;804" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="206;201;197;176;206" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.6">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.6">
       <animate attributeName="cx" values="873;866;869;842;873" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="146;163;173;149;146" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="17s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.0">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.0">
       <animate attributeName="cx" values="86;48;114;72;86" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="218;216;213;263;218" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="24s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.7">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.7">
       <animate attributeName="cx" values="168;130;145;151;168" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="240;263;231;231;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="23s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.8">
       <animate attributeName="cx" values="185;146;166;142;185" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="204;229;231;162;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.8">
       <animate attributeName="cx" values="320;276;357;360;320" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="240;246;222;283;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.8">
       <animate attributeName="cx" values="318;356;320;349;318" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="224;250;200;239;224" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="13s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.8">
       <animate attributeName="cx" values="428;409;447;431;428" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="224;264;197;230;224" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.8">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.8">
       <animate attributeName="cx" values="569;549;589;585;569" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="240;274;238;218;240" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="27s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.9">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.9">
       <animate attributeName="cx" values="643;656;680;611;643" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="222;205;230;233;222" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="25s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.2">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.2">
       <animate attributeName="cx" values="682;708;640;681;682" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="232;205;264;190;232" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="16s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="1.2">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="1.2">
       <animate attributeName="cx" values="811;803;775;852;811" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="204;240;176;226;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="22s" repeatCount="indefinite"/>
     </circle>
-    <circle class="pt" fill="rgba(88,88,115,0.75)" r="2.9">
+    <circle class="pt" fill="rgba(100,180,255,0.85)" r="2.9">
       <animate attributeName="cx" values="846;878;835;820;846" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="204;168;248;221;204" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" dur="20s" repeatCount="indefinite"/>
     </circle>
@@ -961,26 +960,26 @@
   <g transform="translate(0, -10)">
     <text x="40" y="145" font-family="Courier New, monospace" font-size="42" font-weight="bold">👋<animateTransform attributeName="transform" type="rotate" values="0 60 145; 20 60 145; -15 60 145; 10 60 145; 0 60 145" keyTimes="0; 0.2; 0.5; 0.8; 1" dur="2s" repeatCount="indefinite"/></text>
     
-    <text class="txt" x="95" y="140" fill="#24292f" font-family="Courier New, monospace" font-size="30" font-weight="bold">Hi there! I'm </text>
+    <text class="txt" x="95" y="140" fill="#e6edf3" font-family="Courier New, monospace" font-size="30" font-weight="bold">Hi there! I'm </text>
     
     <!-- Nested SVG acts as a native clipper, bypassing GitHub's strict clipPath stripping -->
     <svg x="347" y="100" width="0" height="60">
       <animate attributeName="width" values="0;162;162;0; 0;  0;  0;0; 0;  0;  0;  0;0" keyTimes="0;0.07;0.21;0.242;0.33;0.40;0.54;0.572;0.66;0.779;0.919;0.9785;1" calcMode="linear" dur="10s" repeatCount="indefinite"/>
-      <text class="txt" x="0" y="40" fill="#24292f" font-family="Courier New, monospace" font-size="30" font-weight="bold">@cagritas</text>
+      <text class="txt" x="0" y="40" fill="#e6edf3" font-family="Courier New, monospace" font-size="30" font-weight="bold">@cagritas</text>
     </svg>
 
     <svg x="347" y="100" width="0" height="60">
       <animate attributeName="width" values="0;0;0;0; 0;162;162;0; 0;  0;  0;  0;0" keyTimes="0;0.07;0.21;0.242;0.33;0.40;0.54;0.572;0.66;0.779;0.919;0.9785;1" calcMode="linear" dur="10s" repeatCount="indefinite"/>
-      <text class="txt" x="0" y="40" fill="#24292f" font-family="Courier New, monospace" font-size="30" font-weight="bold">Çağrı Taş</text>
+      <text class="txt" x="0" y="40" fill="#e6edf3" font-family="Courier New, monospace" font-size="30" font-weight="bold">Çağrı Taş</text>
     </svg>
 
     <svg x="347" y="100" width="0" height="60">
       <animate attributeName="width" values="0;0;0;0; 0;  0;  0;0; 0;306;306;0;0" keyTimes="0;0.07;0.21;0.242;0.33;0.40;0.54;0.572;0.66;0.779;0.919;0.9785;1" calcMode="linear" dur="10s" repeatCount="indefinite"/>
-      <text class="txt" x="0" y="40" fill="#24292f" font-family="Courier New, monospace" font-size="30" font-weight="bold">https://cagri.run</text>
+      <text class="txt" x="0" y="40" fill="#e6edf3" font-family="Courier New, monospace" font-size="30" font-weight="bold">https://cagri.run</text>
     </svg>
 
     <!-- Blinking Cursor -->
-    <rect class="cur" fill="#24292f" y="112" width="16" height="34">
+    <rect class="cur" fill="#e6edf3" y="112" width="16" height="34">
       <animate attributeName="x" values="347;509;509;347;347;509;509;347;347;653;653;347;347" keyTimes="0;0.07;0.21;0.242;0.33;0.40;0.54;0.572;0.66;0.779;0.919;0.9785;1" calcMode="linear" dur="10s" repeatCount="indefinite"/>
     </rect>
   </g>
