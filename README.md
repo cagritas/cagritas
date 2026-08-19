@@ -1,47 +1,58 @@
-<h1 align="center">Hi there, I'm Çağrı 👋</h1>
-<h3 align="center">Software Engineer | Mobile & Infrastructure Developer</h3>
+<div align="center">
+  <!-- Hareketli Afiş -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=22,23,24,25,26&height=250&section=header&text=Abdullah%20Çağrı%20Taş&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35" alt="Header" />
 
-<p align="center">
-  <a href="https://cagri.run">
-    <img src="https://img.shields.io/badge/Portfolio-cagri.run-000000?style=for-the-badge&logo=vercel" alt="Website" />
+  <!-- Daktilo Animasyonu -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38B2AC&center=true&vCenter=true&width=600&lines=Software+%26+Platform+Engineer;Cloud-Native+Infrastructure;Python%2C+React+%26+iOS+Developer;%22You+build+it%2C+you+run+it%22" alt="Typing SVG" />
   </a>
-</p>
+  <br/>
+  
+  <!-- Sosyal Medya İkonları -->
+  <a href="SENIN_LINKEDIN_LINKIN_BURAYA"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:SENIN_MAIL_ADRESIN_BURAYA"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cagritas&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+<br/>
 
----
+### 👨‍💻 About Me
+Naval Officer geçmişine sahip bir **Software & Platform Engineer'ım**. Uygulama kodunu yazmakla (Python/React) o kodun koştuğu altyapıyı yönetmek (Kubernetes/Docker) arasındaki köprüyü kurmaya, yani **"You build it, you run it"** felsefesine odaklanıyorum.
+- 🔭 Şu anda **mobil tabanlı DevOps araçları** ve **dağıtık arka plan (backend) sistemleri** geliştiriyorum.
+- 🌱 Siber güvenlik platformlarında (C++, Python, K8s) ölçeklenebilir mimariler üzerine çalışıyorum.
+- ⚡ *Fun fact:* Yazılım dünyasındaki kriz yönetimi becerilerimi donanma akademisindeki denizcilik ve yelken tecrübeme borçluyum.
 
-### 🚀 Private Showcase (Selected Works)
-*While I love open-source, most of my enterprise-grade and complex applications are kept in private repositories. Here is a glimpse of what I've been building behind the scenes:*
+<br/>
 
-#### 📱 Mobile Engineering
-- 🧼 **[SwipeClean](https://github.com/cagritas/SwipeClean)** `[Private Repository]`
-  - A modern **React Native** application for efficient photo library management. Features an intelligent duplicate detection algorithm, 60fps gesture-based interactions (Reanimated), and cross-platform support (iOS/Android).
-- 🍼 **[BabyLive](https://github.com/cagritas/BabyLive)** `[Private Repository]`
-  - Serverless **React Native WebRTC** P2P camera streaming MVP. Implements ultra-low latency video streaming directly between devices using QR/JSON signaling.
-- 🌌 **[Orastra](https://github.com/cagritas/Orastra)** `[Private Repository]`
-  - An AR-powered offline celestial navigation mobile app for sailors built with **Flutter**. Features a custom offline ephemeris calculation engine and Augmented Reality sky view for precise ocean navigation without internet.
+<div align="center">
+  <h3>🚀 Tech Stack & Tools</h3>
+  <!-- Süper Şık Yetenek İkonları -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,cpp,js,ts,react,kubernetes,docker,linux,rabbitmq,postgres,bash,apple,git,github,vscode,nginx&perline=8" alt="My Skills" />
+  </a>
+</div>
 
-#### ☁️ DevOps & Infrastructure
-- ☸️ **[KubeNode](https://github.com/cagritas/KubeNode)** `[Private Repository]`
-  - An iOS-first **Kubernetes** mobile management application (Flutter). Allows DevOps engineers to monitor, scale, and manage K8s clusters directly from their phones.
-- 🖥️ **[ProxNode](https://github.com/cagritas/ProxNode)** `[Private Repository]`
-  - A dedicated mobile infrastructure management and monitoring tool for **Proxmox VE** environments.
+<br/>
 
----
+<div align="center">
+  <h3>📈 GitHub Analytics</h3>
+  <!-- Canlı İstatistik Kartları (Karanlık Tema) -->
+  <img src="https://github-readme-stats.vercel.app/api?username=cagritas&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cagritas&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+</div>
 
-### 💻 Open Source Highlights
-- 🛡️ **[CasperAC](https://github.com/cagritas/casperac)** `[Public]`
-  - Advanced Dual-Layer (WARP + Tor) Network Anonymization Tool & Native Desktop GUI for macOS/Linux. *Available on PyPI.*
-- 📂 **[FilesInfo](https://github.com/cagritas/filesinfo)** `[Public]`
-  - A fast Python library and CLI tool that delivers fact-sheet style metadata for thousands of file extensions. Perfect for security analysis and automation workflows.
+<br/>
 
----
+### 🔥 Featured Engineering Projects
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cagritas&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cagritas&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
+| Proje | Açıklama |
+|---|---|
+| 📱 **[KubeNode](https://apps.apple.com/us/app/kubenode/id6759807165)** | SRE'ler için **iOS üzerinden Kubernetes yönetimi.** Kubeconfig import, canlı pod logları, SSH terminali ve cluster orkestrasyonu. |
+| 🛡️ **[CasperAC](https://pypi.org/project/casperac/)** | Python ile geliştirilmiş, WARP + Tor altyapısını kullanan **Zero-config Dual-Layer Network Anonymization** (Ağ Gizliliği) aracı. |
+| 🎛️ **[ProxNode](https://apps.apple.com/us/app/proxnode/id6757021526)** | **Proxmox VE** sunucularını uzaktan izlemek ve yönetmek için geliştirilen, native metrik ve terminal desteği sunan mobil iOS platformu. |
+| 🐍 **[filesinfo](https://pypi.org/project/filesinfo/)** | Geliştiriciler için cross-platform dosya uzantısı ve platform meta veri yönetimini sıfır bağımlılık (zero-dependency) ile sunan PyPI paketi. |
+
+<br/>
+
+<div align="center">
+  <i>"Smooth seas do not make skillful sailors."</i> ⛵
+</div>
